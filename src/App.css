@@ -88,7 +88,7 @@
   background-repeat: no-repeat;
   position: absolute;
   bottom: 20px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .s01-eye {
