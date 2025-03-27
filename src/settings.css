@@ -1,0 +1,12 @@
+:root {
+  font-family: sans-serif;
+
+  --background-01: #e7e7e7;
+  --background-02: #d1d1d1;
+  --background-03: #020202;
+
+  --color-main:rgb(63, 199, 22);
+
+  --font-color-01: #252525;
+  --font-color-02: #e7e7e7;
+}
