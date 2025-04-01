@@ -63,24 +63,26 @@ function App() {
         <div className='container'>
           <div className='s02-stairs'></div>
           <div className='s02-characters'></div>
-          <div className='s02-title'></div>
+          <div className='s02-title floating'></div>
           <div className='s02-text'></div>
           <div className='s02-ghost'></div>
         </div>
       </div>
 
       <div className='screen_03'>
+        <div className='deco-clouds'></div>
         <div className='container'>
-          <div className='s03-title'></div>
+          <div className='s03-title floating'></div>
           <div className='s03-text'></div>
           <div className='s03-shadow'></div>
+          <div className='s02-stairs'></div>
           <div className='s03-games'>
             <div className='s03-games-01'></div>
             <div className='s03-games-02'></div>
             <div className='s03-games-03'></div>
-            <div className='s03-comic'></div>
+            <div className='s03-comic floating'></div>
           </div>
-          <div className='s03-attetion'></div>
+          <div className='s03-attetion floating'></div>
         </div>
       </div>
 
