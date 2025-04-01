@@ -86,6 +86,28 @@ function App() {
         </div>
       </div>
 
+      <div className='screen_04'>
+        <div className='container'>
+          <div className='s4-cube-background'></div>
+          <div className='s4-characters floating'></div>
+          <div className='s4-title'></div>
+          <div className='s4-stairs floating-2'></div>
+          <div className='c-patreon'>
+            <div className='s4-patreon-shadow'></div>
+            <div className='s4-patreon'></div>
+            <div className='s4-patreon-thing'></div>
+            <div className='s4-patreon-deco'></div>
+            <div className='s4-patreon-title'></div>
+          </div>
+          <div className='c-kofi'>
+            <div className='s4-coffe-shadow'></div>
+            <div className='s4-coffe'></div>
+            <div className='s4-coffe-deco'></div>
+            <div className='s4-coffe-title'></div>
+            <div className='s4-coffe-clouds floating-2  '></div>
+          </div>
+        </div>
+      </div>
     </div>
 
     </>
