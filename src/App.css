@@ -202,6 +202,16 @@
   position: absolute;
 }
 
+.s02-ghost-title {
+  width: 100% ;
+  height: 100%;
+  background-image: url(./assets/screen_02/w_06.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
 /* SCREEN 03 */
 .screen_03 {
   position: relative;
@@ -303,10 +313,11 @@
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
+  transform: scale(0.9);
 }
 
 .s4-characters {
-  width: 100% ;
+  width: 100%;
   height: 100%;
   background-image: url(./assets/screen_04/_04_characters.png);
   background-size: contain;

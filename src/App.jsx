@@ -65,7 +65,9 @@ function App() {
           <div className='s02-characters'></div>
           <div className='s02-title floating'></div>
           <div className='s02-text'></div>
-          <div className='s02-ghost'></div>
+          <div className='s02-ghost floating-2'>
+            <div className='s02-ghost-title'></div>
+          </div>
         </div>
       </div>
 
@@ -77,19 +79,20 @@ function App() {
           <div className='s03-shadow'></div>
           <div className='s02-stairs'></div>
           <div className='s03-games'>
-            <div className='s03-games-01'></div>
-            <div className='s03-games-02'></div>
-            <div className='s03-games-03'></div>
-            <div className='s03-comic floating'></div>
+            <div className='s03-games-01 floating-2'></div>
+            <div className='s03-games-02 floating-2'></div>
+            <div className='s03-games-03 floating-2'></div>
           </div>
-          <div className='s03-attetion floating'></div>
+          <div className='s03-comic floating-2'></div>
+          <div className='s03-attetion floating-2'></div>
         </div>
       </div>
 
       <div className='screen_04'>
         <div className='container'>
-          <div className='s4-cube-background'></div>
-          <div className='s4-characters floating'></div>
+          <div className='s4-cube-background'>
+            <div className='s4-characters floating'></div>
+          </div>
           <div className='s4-title'></div>
           <div className='s4-stairs floating-2'></div>
           <div className='c-patreon'>
@@ -101,10 +104,10 @@ function App() {
           </div>
           <div className='c-kofi'>
             <div className='s4-coffe-shadow'></div>
+            <div className='s4-coffe-clouds floating-2'></div>
             <div className='s4-coffe'></div>
             <div className='s4-coffe-deco'></div>
             <div className='s4-coffe-title'></div>
-            <div className='s4-coffe-clouds floating-2  '></div>
           </div>
         </div>
       </div>
