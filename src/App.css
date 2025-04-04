@@ -28,8 +28,10 @@
 
 .screen_01 {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: 119vh;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .container {
@@ -83,9 +85,9 @@
   position: absolute;
 }
 
-.s01-img-deco {
+/* .s01-img-deco {
   width: 100% ;
-  height: 100%;
+  height: auto;
   background-image: url(./assets/screen_01/screen_01_deco.png);
   background-size: cover;
   background-position: center;
@@ -105,7 +107,7 @@
   position: absolute;
   bottom: 10em;
   z-index: 0;
-}
+} */
 
 
 .s01-eye {
@@ -148,8 +150,9 @@
 /* SCREEN_02 */
 .screen_02 {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: 120vh;
+  margin: 0 auto;
 }
 
 .s02-stairs {
@@ -215,8 +218,9 @@
 /* SCREEN 03 */
 .screen_03 {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: 120vh;
+  margin: 0 auto;
 }
 
 
@@ -301,8 +305,9 @@
 /* SCREEN 04 */
 .screen_04 {
   position: relative;
-  width: 100%;
+  width: 85%;
   height: 120vh;
+  margin: 0 auto;
 }
 
 .s4-cube-background {
@@ -444,4 +449,11 @@
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
+}
+
+.website-version {
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
 }

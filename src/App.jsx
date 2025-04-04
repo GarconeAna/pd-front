@@ -59,7 +59,7 @@ function App() {
       </div>
 
       <div className='screen_02'>
-        <div className='s01-img-deco'></div>
+        {/* <div className='s01-img-deco'></div> */}
         <div className='container'>
           <div className='s02-stairs'></div>
           <div className='s02-characters'></div>
@@ -111,6 +111,7 @@ function App() {
           </div>
         </div>
       </div>
+      <p className='website-version'>0.5.0</p>
     </div>
 
     </>
