@@ -111,7 +111,7 @@ function App() {
           </div>
         </div>
       </div>
-      <p className='website-version'>0.5.0</p>
+      <p className='website-version'>Version 0.5.0</p>
     </div>
 
     </>
