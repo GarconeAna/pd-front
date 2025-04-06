@@ -3,7 +3,7 @@
   background: red;
   height: max-content;
   background: rgb(62,58,85);
-  background: linear-gradient(0deg, #3e3a55 0%, #746d96 100%);
+  background: linear-gradient(0deg, #3e3a55 50%, #746d96 100%);
   height: max-content;
 }
 
@@ -32,12 +32,14 @@
   height: 119vh;
   overflow: hidden;
   margin: 0 auto;
+  background: linear-gradient(to bottom, #746d96, #3e3a55);
 }
 
 .container {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
 }
 
 .s01-img-stairs {
@@ -151,9 +153,10 @@
 /* SCREEN_02 */
 .screen_02 {
   position: relative;
-  width: 90%;
+  width: 100%;
   height: 120vh;
   margin: 0 auto;
+  background: linear-gradient(to bottom, #3e3a55, #746d96);
 }
 
 .s02-stairs {
@@ -219,9 +222,10 @@
 /* SCREEN 03 */
 .screen_03 {
   position: relative;
-  width: 90%;
+  width: 100%;
   height: 120vh;
   margin: 0 auto;
+  background: linear-gradient(to bottom, #746d96, #3e3a55);
 }
 
 
@@ -306,9 +310,10 @@
 /* SCREEN 04 */
 .screen_04 {
   position: relative;
-  width: 85%;
+  width: 100%;
   height: 120vh;
   margin: 0 auto;
+  background: linear-gradient(to bottom, #3e3a55, #746d96);
 }
 
 .s4-cube-background {

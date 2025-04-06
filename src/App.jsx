@@ -43,18 +43,16 @@ function App() {
     <div className='content'>
 
       <div className='screen_01'>
-        <div className='container'>
-          <div className='s01-img-characters'></div>
-          <div className='s01-img-stairs'></div>
-          <div className='s01-eye'>
-            <div className='s01-img-eye-01'></div>
-            <div className='s01-img-eye-02'></div>
-            <div ref={pupilRef} className='s01-img-eye-03 pupil'></div>
-          </div>
-          <div className='c-title floating'>
-            <div className='s01-img-clouds'> </div>
-            <div className='s01-img-title'></div>
-          </div>
+        <div className='s01-img-characters'></div>
+        <div className='s01-img-stairs'></div>
+        <div className='s01-eye'>
+          <div className='s01-img-eye-01'></div>
+          <div className='s01-img-eye-02'></div>
+          <div ref={pupilRef} className='s01-img-eye-03 pupil'></div>
+        </div>
+        <div className='c-title floating'>
+          <div className='s01-img-clouds'> </div>
+          <div className='s01-img-title'></div>
         </div>
       </div>
 
@@ -110,8 +108,8 @@ function App() {
             <div className='s4-coffe-title'></div>
           </div>
         </div>
+        <p className='website-version'>Version 0.5.0</p>
       </div>
-      <p className='website-version'>Version 0.5.0</p>
     </div>
 
     </>
