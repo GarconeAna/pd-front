@@ -169,7 +169,7 @@ function App() {
         </div>
       </div>
 
-      <div className="deco_clouds"></div>
+      <div className="deco_clouds floating"></div>
 
       <div className="section_sreen4">
         <div className="page-padding">
@@ -284,7 +284,7 @@ function App() {
         <p className="website-version">Version 0.5.0</p>
       </div> */}
 
-      <div className="deco_clouds"></div>
+      <div className="deco_clouds floating"></div>
 
       <div className="section_footer">
         <div className="page-padding">
