@@ -87,7 +87,7 @@ function App() {
               <div style={{ display: "grid", gridTemplateColumns: "4fr 1fr", columnGap: "30px" }}>
                 <div>
                   <img src={text02} alt="text" style={{ maxWidth: "100%", height: "auto" }} />
-                  <img src={characters} alt="characters" style={{ maxWidth: "100%", height: "auto" }} />
+                  <img src={characters} alt="characters"className="floating" style={{ maxWidth: "100%", height: "auto" }} />
                 </div>
 
                 <div>
