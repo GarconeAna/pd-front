@@ -215,7 +215,9 @@ function App() {
                       <img
                         src={coffeDeco}
                         alt="cloud"
-                        style={{ width: "100%" }}
+                        style={{ 
+                          width: "100%" 
+                        }}
                       />
                     </div>
 
