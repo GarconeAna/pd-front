@@ -205,7 +205,7 @@ function App() {
                       style={{
                         position: "absolute",
                         top: "-10px",
-                        left: "0",
+                        left: "-27px",
                         width: "220px",
                         display: "flex",
                         justifyContent: "center",
